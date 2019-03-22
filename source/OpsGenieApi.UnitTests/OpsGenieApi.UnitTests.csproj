@@ -65,13 +65,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpsGenieApi\OpsGenieApi.csproj">
-      <Project>{0AC0117A-8D4A-4539-BE66-A90B172A7DFE}</Project>
-      <Name>OpsGenieApi</Name>
-    </ProjectReference>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+    <ProjectReference Include="..\OpsGenieApi\OpsGenieApi.csproj">
+      <Project>{9d7138df-f231-4af9-af6b-2e59f6aafe03}</Project>
+      <Name>OpsGenieApi</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
